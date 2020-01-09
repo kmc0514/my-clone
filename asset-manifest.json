@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-clone/static/css/main.681a49ec.chunk.css",
+    "main.js": "/my-clone/static/js/main.83f874f7.chunk.js",
+    "main.js.map": "/my-clone/static/js/main.83f874f7.chunk.js.map",
+    "runtime-main.js": "/my-clone/static/js/runtime-main.b5ecb601.js",
+    "runtime-main.js.map": "/my-clone/static/js/runtime-main.b5ecb601.js.map",
+    "static/js/2.ab729356.chunk.js": "/my-clone/static/js/2.ab729356.chunk.js",
+    "static/js/2.ab729356.chunk.js.map": "/my-clone/static/js/2.ab729356.chunk.js.map",
+    "index.html": "/my-clone/index.html",
+    "precache-manifest.8a2b3bb5ad4f64640fe621eaf1ca9d6d.js": "/my-clone/precache-manifest.8a2b3bb5ad4f64640fe621eaf1ca9d6d.js",
+    "service-worker.js": "/my-clone/service-worker.js",
+    "static/css/main.681a49ec.chunk.css.map": "/my-clone/static/css/main.681a49ec.chunk.css.map",
+    "static/js/2.ab729356.chunk.js.LICENSE": "/my-clone/static/js/2.ab729356.chunk.js.LICENSE",
+    "static/media/camera.jpg": "/my-clone/static/media/camera.5a204eb0.jpg",
+    "static/media/wallpaper.jpg": "/my-clone/static/media/wallpaper.b85ba753.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5ecb601.js",
+    "static/js/2.ab729356.chunk.js",
+    "static/css/main.681a49ec.chunk.css",
+    "static/js/main.83f874f7.chunk.js"
+  ]
+}
