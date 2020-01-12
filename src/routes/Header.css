@@ -1,0 +1,124 @@
+.header__bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  z-index: 1;
+}
+
+.header__box {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: inherit;
+  /*   position: absolute; */
+  width: 1150px;
+  height: 72px;
+}
+
+.header__logo {
+  height: 35px;
+  width: auto;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  height: 100%;
+}
+
+.header__menu-items {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 21px;
+  cursor: pointer;
+}
+
+.header__menu li:hover {
+  border-bottom: 2px solid white;
+  transform: translateY(1px);
+}
+
+.header__menu li span {
+  margin-right: 8px;
+}
+
+.header__btn-box button:first-child {
+  border-radius: 25px;
+  border: 1.5px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  width: 90px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header__btn-box button:nth-child(2) {
+  border-radius: 25px;
+  border: 1.5px solid white;
+  background-color: white;
+  width: 90px;
+  height: 40px;
+}
+
+.menu__box {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  width: 1150px;
+}
+
+.detail__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+  padding-right: 80px;
+}
+
+.detail__menu a {
+  color: white;
+}
+
+.detail__close {
+  display: none;
+}
+
+.detail__open {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding-top: 73px;
+  height: 160px;
+  border-bottom: 0.5px solid #e5e5e5;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 99, 95, 1) 0%,
+    rgba(191, 72, 72, 1) 100%
+  );
+  width: 100%;
+  color: white;
+  animation: detail__anim 1s;
+}
+
+@keyframes detail__anim {
+  0% {
+    margin-top: -72px;
+  }
+
+  100% {
+    margin-top: 0px;
+  }
+}
